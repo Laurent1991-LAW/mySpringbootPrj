@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.lwason.sbprj.dao.UserMapper">
+
+    <insert id="batchInsertUser" parameterType="org.lwason.sbprj.dao.entity.UserPO">
+        INSERT INTO tb_user_info
+        (user_id,user_name,age,income)
+        values ${po.batchBlock}
+    </insert>
+
+    <update id="batchUpdateAge">
+        UPDATE tb_user_info
+        SET age = #{age}
+        WHERE id in ${batchBlock}
+    </update>
+
+    <select id="selectPageByInt" resultType="org.lwason.sbprj.dao.entity.UserPO">
+        SELECT * FROM tb_user_info
+        LIMIT #{pageIndex},#{pageSize}
+    </select>
+
+    <select id="selectPageByStr" resultType="org.lwason.sbprj.dao.entity.UserPO">
+        SELECT * FROM tb_user_info
+        LIMIT #{pageIndex,jdbcType=INTEGER},#{pageSize,jdbcType=INTEGER}
+    </select>
+</mapper>
