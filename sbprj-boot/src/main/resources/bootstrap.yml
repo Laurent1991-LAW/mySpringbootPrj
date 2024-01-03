@@ -2,14 +2,13 @@ server:
   port: 8081
 
 spring:
-  application:
-    name: service-provider
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/localtest
     username: root
     password: root
-
+  application:
+    name: mySpringbootProjet
   cloud:
     nacos:
       discovery:
@@ -33,4 +32,3 @@ async:
       queueCapacity : 200
       name:
         prefix: 'my_async_task_'
-

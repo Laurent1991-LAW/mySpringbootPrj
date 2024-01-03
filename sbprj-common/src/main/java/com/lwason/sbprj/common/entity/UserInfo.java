@@ -1,4 +1,4 @@
-package org.lwason.sbprj.entity;
+package com.lwason.sbprj.common.entity;
 
 
 import lombok.AllArgsConstructor;

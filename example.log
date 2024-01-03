@@ -1,0 +1,19 @@
+INFO http-nio-8081-exec-1 org.lwason.sbprj.filter.FilterB - enter Filter B
+20231029 10:36:14.477 |  INFO |  http-nio-8081-exec-1 org.lwason.sbprj.filter.FilterB - enter Filter B
+"20231029 10:38:03.608 |  INFO |  http-nio-8081-exec-2 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231031 12:25:39.777 |  INFO |  http-nio-8081-exec-1 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231031 12:25:39.791 |  INFO |  http-nio-8081-exec-1 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231031 12:27:20.731 |  INFO |  http-nio-8081-exec-3 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231031 12:27:20.736 |  INFO |  http-nio-8081-exec-3 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231031 12:27:45.467 |  INFO |  http-nio-8081-exec-6 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231031 12:28:57.878 |  INFO |  http-nio-8081-exec-6 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231031 12:43:55.256 |  INFO |  http-nio-8081-exec-2 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231031 17:01:11.404 |  INFO |  http-nio-8081-exec-1 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231031 17:02:38.413 |  INFO |  http-nio-8081-exec-2 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231031 17:03:41.139 |  INFO |  http-nio-8081-exec-1 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231031 17:05:21.596 |  INFO |  http-nio-8081-exec-1 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231104 14:52:32.117 |  INFO |  http-nio-8081-exec-2 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231104 14:52:32.441 |  INFO |  http-nio-8082-exec-1 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231104 15:06:42.441 |  INFO |  http-nio-8081-exec-1 org.lwason.sbprj.filter.FilterB - enter Filter B
+""20231104 15:06:42.742 |  INFO |  http-nio-8082-exec-1 org.lwason.sbprj.filter.FilterB - enter Filter B
+"
