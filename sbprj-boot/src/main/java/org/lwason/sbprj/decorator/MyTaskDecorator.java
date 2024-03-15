@@ -7,6 +7,7 @@ import org.springframework.core.task.TaskDecorator;
 public class MyTaskDecorator implements TaskDecorator {
     @Override
     public Runnable decorate(Runnable runnable) {
+
         return new MyRunnable(CurrentContext.threadLocal.get(), runnable);
     }
 }
